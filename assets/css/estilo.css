@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background: linear-gradient(4deg, #2C3F3F, #445e5d);
+}
+
+
+#logo{
+    justify-content: center;
+    display: flex;
+    margin-top: 10px;
+}
+
+img{
+    width: 100%;
+    height: 200px;
+    
+}
+
+
+
+#login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+    margin-top: 40px;
+    
+}
+
+.info_usuario{
+    width: 270px;
+    padding: 10px;
+    margin-bottom: 30px;  
+    background: #253737;
+    border: 1px #63C1BF solid;
+    -webkit-box-shadow: 0px 0px 17px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 17px -2px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 17px -2px #000000bf;
+    font-size: 15px;
+}
+
+
+
+.envios{
+    background: #182323;
+    color: #29B7B4;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    border: solid 1px ;
+}
+
+#botoes{
+    padding: 10px;
+}
+
+label{
+    font-size: 14px;
+    
+}
+
+#b2{
+    margin-left: 45px;
+}
+
+
+footer {
+    position: absolute;
+    margin-top: auto;
+    bottom: 0;
+    width: 100%;
+    background-color: #192424;
+    height: 150px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-top: solid 1px rgb(36, 36, 36);
+    -webkit-box-shadow: 0px 0px 162px -46px rgba(0,0,0,0.86);
+-moz-box-shadow: 0px 0px 162px -46px rgba(0,0,0,0.86);
+box-shadow: 0px 0px 162px -46px rgba(0,0,0,0.86);
+}
+
+#mensagemCadastro{
+    color: white;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+#criarConta {
+    margin: 0 auto;
+    background: #253737;
+    border: 1px #63C1BF solid;
+    color: white;
+    width: 220px;
+    height: 40px;
+    font-size: 20px;
+}
